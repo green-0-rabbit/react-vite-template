@@ -1,0 +1,7 @@
+node_modules/
+build/
+scripts/
+jest.config.js
+vite.config.ts
+*.css
+*.svg

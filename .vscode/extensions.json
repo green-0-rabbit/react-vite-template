@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "graphql.vscode-graphql",
+    "abusaidm.html-snippets",
+    "mrdevops.react-emotion-snippets",
+    "mskelton.react-emotion-snippets",
+    "hex-ci.stylelint-plus",
+    "styled-components.vscode-styled-components",
+    "bradlc.vscode-tailwindcss",
+    "paulmolluzzo.convert-css-in-js",
+    "graphql.vscode-graphql",
+    "thebenforce.appsync-resolver-autocomplete",
+    "sodatea.velocity",
+    "ms-playwright.playwright",
+    "arcanis.vscode-zipfs"
+  ]
+}

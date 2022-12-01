@@ -1,0 +1,83 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "jest": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "airbnb",
+    "airbnb-typescript"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier",
+    "tailwindcss",
+    "mobx"
+  ],
+  "rules": {
+    "mobx/exhaustive-make-observable": "warn",
+    "mobx/unconditional-make-observable": "error",
+    "mobx/missing-make-observable": "error",
+    "no-console": "warn",
+    "object-curly-newline": "off",
+    "operator-linebreak": "off",
+    "no-underscore-dangle": "off",
+    "function-paren-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "@typescript-eslint/indent": "off",
+    "react/jsx-closing-bracket-location": "off",
+    "react/function-component-definition": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "linebreak-style": "off",
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "react/jsx-wrap-multilines": "off",
+    "no-confusing-arrow": "off",
+    "quotes": "off",
+    "@typescript-eslint/quotes": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-curly-newline": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-dynamic-require": "off",
+    "global-require": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true,
+        "bracketSameLine": true,
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
